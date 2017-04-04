@@ -7,10 +7,12 @@ class StallionsController < ApplicationController
                                   # GET /stallions
                                   # GET /stallions.json
   def index
+    # logger.debug 'ssss'
     # @stallions = Stallion.name
     @stallions = Stallion.all
-    respond_to do |format|
-      format.json { render json: @stallions}
+    # respond_to do |format|
+    #   format.json { render json: @stallions}
+      render json: @stallions
     end
   end
 
@@ -23,7 +25,11 @@ class StallionsController < ApplicationController
   def new
     @stallion = Stallion.new
   end
-
+  # def book_params
+  #   res = ActiveModelSerializers::Deserialization.jsonapi_parse(params, polymorphic: [:publisher])
+  #   res[:publisher_type] = res[:publisher_type].singularize.capitalize
+  #   res
+  # end
                                   # GET /stallions/1/edit
   def edit
   end
