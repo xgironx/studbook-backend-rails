@@ -9,7 +9,7 @@ end
 # 201704032022L   EL LUNES    JAY
 # https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/
 gem "active_model_serializers"
-
+gem 'rack-cors', :require => 'rack/cors'
 #
 ################################
 
