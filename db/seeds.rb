@@ -26,7 +26,7 @@
         #  stakes_winner_progeny, image_url, link_to_pedigree_url
 tapit = Stallion.create(name:"Tapit", age:"16", color:"gr", registry_tattoo:"E12345", stud_fee:"300000", stakes_winner_progeny:"8", img_url:"https://www.thoroughbredracing.com/media/filer_public_thumbnails/drupal_files/TapitGallopSmCC%20resize.jpg__760x480_q85_crop_subsampling-2_upscale.jpg", link_to_pedigree_url:"http://www.pedigreequery.com/tapit")
 
-medaglia_d_oro = Stallion.create(name:"Medaglia D'Oro", age:"18", color:"dkb/br", registry_tattoo:"C22345", stud_fee:"150000", stakes_winner_progeny:"7", img_url:"hhttp://i.bloodhorse.com/sroimages//medium/0000132019_1.jpg", link_to_pedigree_url:"http://www.pedigreequery.com/medaglia+doro")
+medaglia_d_oro = Stallion.create(name:"Medaglia D'Oro", age:"18", color:"dkb/br", registry_tattoo:"C22345", stud_fee:"150000", stakes_winner_progeny:"7", img_url:"http://i.bloodhorse.com/sroimages//medium/0000132019_1.jpg", link_to_pedigree_url:"http://www.pedigreequery.com/medaglia+doro")
 
 high_cotton = Stallion.create(name:"High Cotton", age:"14", color:"b", registry_tattoo:"G22340", stud_fee:"4000", stakes_winner_progeny:"3", img_url:"http://www.abouthorseraces.com/graphics/bc06/trav06-7s.jpg", link_to_pedigree_url:"http://www.pedigreequery.com/high+cotton2")
 
