@@ -5,13 +5,17 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-################################
-# 201704032022L   EL LUNES    JAY
-# https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/
+                                        ################################
+                                        # 201704032022L   EL LUNES    JAY
+                                        # https://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/
 gem "active_model_serializers"
 gem 'rack-cors', :require => 'rack/cors'
-#
-################################
+                                        #   Wed Apr 05 11:23:08 ~/wdi/_turn_this_in/capstone/9elements/studbook_eor_backend (master *)
+                                        # $ bundle  | grep cor
+                                        # Using rack-cors 0.4.1
+                                        # Using activerecord 5.0.2
+                                        #
+                                        ################################
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
